@@ -20,7 +20,7 @@ Fabric nodejs sdk, 又称fabric-sdk-node， 是基于nodejs的Fabric后端开发
 - Nodejs 8.x, **Node v9.0+ 暂时不支持**
 - NPM 5.5.1 或更高版本
 - gulp 命令工具 
-  - 安装命令:`npm install -g gulp`
+  - 安装命令:`[sudo] npm install -g gulp-cli`
 - docker 和 docker-compose: 用于集成测试
   - 版本与Fabric源码开发所需的环境相同
 - (可选) Fabric相关的docker镜像
