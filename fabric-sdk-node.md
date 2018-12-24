@@ -25,6 +25,11 @@ Fabric nodejs sdk, 又称fabric-sdk-node， 是基于nodejs的Fabric后端开发
   - 版本与Fabric源码开发所需的环境相同
 - (可选) Fabric相关的docker镜像
   - 某些镜像在构建过程中可以自动下载
+- (可选) 模拟HSM模块
+  - 用于解决在测试中出现类似错误 `Could not locate a PKCS11 library`
+  - Ubuntu: apt-get install softhsm2
+  - macOS: brew install softhsm
+
   
 # 获取源码
 1. 前往https://gerrit.hyperledger.org 并点击右上角Sign in，使用您的LFID(Linux Foundation ID)登陆
